@@ -3,7 +3,7 @@ import java.util.Date;
  * @Author: Andrés Fernández Pereira
  */
 class Empleado {
-    String nombre;
+    final String nombre;
     Date birthDate;
 
     Empleado(String name, Date birthDate) {
